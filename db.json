@@ -1,29 +1,95 @@
 {
-    "manyObject": {
+    "ghReqComplex": {
         "status": "Ok",
         "statusCode": 200,
         "message": "Success",
         "data": {
             "id": 1,
-            "ini": "ini",
-            "itu": "itu",
-            "banyak": "sekali"
+            "name": "gh-001",
+            "elevation": 2000,
+            "dimension": [ 20, 20, 20 ],
+            "address": 
+            {
+                "country": "indonesia",
+                "province": "west java",
+                "city": "bandung",
+                "district": "coblong",
+                "village": "dago",
+                "street": "jln suka suka"
+            },
+            "blocks": [
+                {
+                    "id": "1",
+                    "status": "Active",
+                    "name": "block 1",
+                    "processCycles": [
+                        {
+                        "status": "Active",
+                        "plantId": 
+                        {
+                            "name": "crisantium",
+                            "id": "0"
+                        },
+                        "name": "cycle 1",
+                        "seedCount": 1000,
+                        "startAt": "2020-10-07T01:21:26.554Z",
+                        "endAt": null,
+                        "id": "5f7d1816e90a1317b5b880c3"
+                        }
+                    ]
+                },
+                {
+                    "id": "1",
+                    "status": "Active",
+                    "name": "block 2",
+                    "processCycles": [
+                        {
+                        "status": "Active",
+                        "plantId": 
+                        {
+                            "name": "crisantium",
+                            "id": "0"
+                        },
+                        "name": "cycle 2",
+                        "seedCount": 1000,
+                        "startAt": "2020-10-07T01:21:26.554Z",
+                        "endAt": null,
+                        "id": "5f7d1816e90a1317b5b880c3"
+                        }
+                    ]
+                }
+              ]
         }
     },
     "oneIntArray": {
         "status": "Ok",
         "statusCode": 200,
         "message": "Success",
-        "data": [         
-            
-        ]
+        "data": [ 0, 1, 2 ]
     },
     "ObjectArray": {
         "status": "Ok",
         "statusCode": 200,
         "message": "Success",
         "data":[
-            
+            {
+                "id":1,
+                "var-a": "a",
+                "var-b": "b",
+                "var-c": "c"
+            },
+            {
+                "id":2,
+                "var-a": "d",
+                "var-b": "e",
+                "var-c": "f"
+            },
+            {
+                "id":3,
+                "var-a": "g",
+                "var-b": "h",
+                "var-c": "i"
+            }
         ]
     }
 }
