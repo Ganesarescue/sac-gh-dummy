@@ -1,8 +1,11 @@
 {
-    "greenHouse": [
+    "greenhouse": [
         {
             "data": {
-                
+                "id": 1,
+                "ini": "ini",
+                "itu": "itu",
+                "banyak": "sekali"
             }
         }
     ]
