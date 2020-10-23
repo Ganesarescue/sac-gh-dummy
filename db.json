@@ -4,7 +4,7 @@
         "statusCode": 200,
         "message": "Success",
         "data": {
-            "id": 1,
+            "id": "1",
             "owner": {
                 "firstName": "user",
                 "lastName": "2",
@@ -16,7 +16,7 @@
             },
             "greenhouse": [
                 {
-                    "id": 1,
+                    "id": "1",
                     "name": "gh-001",
                     "elevation": 2000,
                     "dimension": [ 20, 20, 20 ],
@@ -32,26 +32,32 @@
                     "blocks" : [
                         {
                             "id": "1",
+                            "name":"block 1",
                             "status": "Active"
                         },
                         {
                             "id": "2",
+                            "name":"block 2",
                             "status": "Active"
                         },
                         {
                             "id": "3",
+                            "name":"block 3",
                             "status": "Active"
                         },
                         {
                             "id": "4",
+                            "name":"block 4",
                             "status": "InActive"
                         },
                         {
                             "id": "5",
+                            "name":"block 5",
                             "status": "InActive"
                         },
                         {
                             "id": "6",
+                            "name":"block 6",
                             "status": "InActive"
                         }
                     ]
