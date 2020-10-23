@@ -4,8 +4,8 @@
         "statusCode": 200,
         "message": "Success",
         "data": {
-            "id": "1",
             "owner": {
+                "id": "1",
                 "firstName": "user",
                 "lastName": "2",
                 "email": "user@gmail.com"
