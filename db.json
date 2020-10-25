@@ -10,21 +10,21 @@
                 "lastName": "komari",
                 "email": "user@gmail.com"
             },
+            "elevation": 2000,
+            "address": 
+            {
+                "country": "indonesia",
+                "province": "west java",
+                "city": "bandung",
+                "district": "coblong",
+                "village": "dago",
+                "street": "jln suka suka"
+            },
             "greenhouse": [
                 {
                     "id": "1",
                     "name": "gh-001",
-                    "elevation": 2000,
                     "dimension": [ 20, 20, 20 ],
-                    "address": 
-                    {
-                        "country": "indonesia",
-                        "province": "west java",
-                        "city": "bandung",
-                        "district": "coblong",
-                        "village": "dago",
-                        "street": "jln suka suka"
-                    },
                     "contactPerson": {
                         "name": "cecep maricep",
                         "phoneNumber": "+62 85276767654"
@@ -80,6 +80,7 @@
                         "status": "Active",
                         "plantId": { "id": "1", "name": "crisantium" },
                         "seedCount": 1000
+                        "id": "5f7d1816e90a1317b5b880c3"
                     }
                 ],
                 "activity": [
@@ -110,17 +111,31 @@
                 "processCycles": [
                     {
                     "status": "Active",
-                    "plantId": 
-                    {
-                        "name": "crisantium",
-                        "id": "0"
-                    },
+                    "plantId": { "name": "crisantium", "id": "0" },
                     "name": "cycle 2",
                     "seedCount": 1000,
-                    "startAt": "2020-10-07T01:21:26.554Z",
-                    "endAt": null,
                     "id": "5f7d1816e90a1317b5b880c3"
                     }
+                ],
+                "activity": [
+                    { "title": "kegiatan A" },
+                    { "title": "kegiatan B" },
+                    { "title": "kegiatan C" },
+                    { "title": "kegiatan D" },
+                    { "title": "kegiatan E" },
+                    { "title": "kegiatan F" },
+                    { "title": "kegiatan G" },
+                    { "title": "kegiatan H" },
+                    { "title": "kegiatan I" },
+                    { "title": "kegiatan J" },
+                    { "title": "kegiatan A" }
+                ],
+                "requirement": [
+                    { "title": "Requirement A", "status": false },
+                    { "title": "Requirement B", "status": false},
+                    { "title": "Requirement C", "status": false},
+                    { "title": "Requirement D", "status": false},
+                    { "title": "Requirement F", "status": false}
                 ]
             }
           ]
