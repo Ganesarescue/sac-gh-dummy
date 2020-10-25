@@ -91,38 +91,7 @@
       "statusCode": 200,
       "statusMessage": "OK",
       "message": "Data Found",
-      "data": {
-        "dimension": {
-          "width": 4,
-          "length": 5,
-          "height": 10
-        },
-        "address": {
-          "country": "indonesia",
-          "province": "west java",
-          "city": "bandung",
-          "district": "coblong",
-          "village": "dago",
-          "street": "jln suka suka"
-        },
-        "location": {
-          "type": "Point",
-          "coordinates": [
-            -6.8751884,
-            107.6089406
-          ]
-        },
-        "contactPerson": {
-          "name": "abdul komari",
-          "phoneNumber": "+62 85276767654"
-        },
-        "owner": "5f8ea811bf6fe81f6cca92de",
-        "name": "gh-001",
-        "elevation": 2000,
-        "createdAt": "2020-10-21T06:29:46.570Z",
-        "updatedAt": "2020-10-21T06:29:46.570Z",
-        "__v": 0,
-        "blocks": [
+      "data": [
           {
             "dimension": {
               "width": 30,
@@ -235,8 +204,6 @@
             },
             "id": "5f918154c7d3d2753a865939"
           }
-        ],
-        "id": "5f8fd55af39ca2ad8929ba97"
-      }
+        ]
     }
 }
