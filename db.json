@@ -1,216 +1,87 @@
 {
-    "ghReqInfo": {
-        "status": "Ok",
+    "infoGh": {
+        "isSuccess": true,
         "statusCode": 200,
-        "message": "Success",
-        "data": {
-            "owner": {
-                "id": "1",
-                "firstName": "abdul",
-                "lastName": "komari",
-                "email": "user@gmail.com"
-            },
-            "elevation": 2000,
-            "address": 
-            {
-                "country": "indonesia",
-                "province": "west java",
-                "city": "bandung",
-                "district": "coblong",
-                "village": "dago",
-                "street": "jln suka suka"
-            },
-            "greenhouses": [
-                {
-                    "id": "1",
-                    "name": "gh-001",
-                    "dimension": [ 20, 20, 20 ],
-                    "contactPerson": {
-                        "name": "cecep maricep",
-                        "phoneNumber": "+62 85276767654"
-                    },
-                    "blocks" : [
-                        {
-                            "id": "1",
-                            "name":"block 1",
-                            "status": "Active"
-                        },
-                        {
-                            "id": "2",
-                            "name":"block 2",
-                            "status": "Active"
-                        },
-                        {
-                            "id": "3",
-                            "name":"block 3",
-                            "status": "Active"
-                        },
-                        {
-                            "id": "4",
-                            "name":"block 4",
-                            "status": "InActive"
-                        },
-                        {
-                            "id": "5",
-                            "name":"block 5",
-                            "status": "InActive"
-                        },
-                        {
-                            "id": "6",
-                            "name":"block 6",
-                            "status": "InActive"
-                        }
-                    ]
-                },
-                {
-                    "id": "2",
-                    "name": "gh-002",
-                    "dimension": [ 20, 20, 20 ],
-                    "contactPerson": {
-                        "name": "cecep maricep",
-                        "phoneNumber": "+62 85276767654"
-                    },
-                    "blocks" : [
-                        {
-                            "id": "1",
-                            "name":"block 1",
-                            "status": "Active"
-                        },
-                        {
-                            "id": "2",
-                            "name":"block 2",
-                            "status": "Active"
-                        },
-                        {
-                            "id": "3",
-                            "name":"block 3",
-                            "status": "Active"
-                        },
-                        {
-                            "id": "4",
-                            "name":"block 4",
-                            "status": "InActive"
-                        },
-                        {
-                            "id": "5",
-                            "name":"block 5",
-                            "status": "InActive"
-                        },
-                        {
-                            "id": "6",
-                            "name":"block 6",
-                            "status": "InActive"
-                        }
-                    ]
-                }
-            ]
-        }
-    },
-    "ghBlocks": {
-        "status": "Ok",
-        "statusCode": 200,
-        "message": "Success",
+        "statusMessage": "OK",
+        "message": "Data Founds",
+        "dataCount": 2,
         "data": [
-            {
-                "id": "1",
-                "status": "Active",
-                "name": "block 1",
-                "phase": "pra-tanam",
-                "processCycles": [
-                    {
-                        "name": "cycle 1",
-                        "status": "Active",
-                        "plantId": { "id": "1", "name": "crisantium" },
-                        "seedCount": 1000,
-                        "id": "5f7d1816e90a1317b5b880c3"
-                    }
-                ],
-                "activity": [
-                    { "title": "kegiatan A" },
-                    { "title": "kegiatan B" },
-                    { "title": "kegiatan C" },
-                    { "title": "kegiatan D" },
-                    { "title": "kegiatan E" },
-                    { "title": "kegiatan F" },
-                    { "title": "kegiatan G" },
-                    { "title": "kegiatan H" },
-                    { "title": "kegiatan I" },
-                    { "title": "kegiatan J" },
-                    { "title": "kegiatan A" }
-                ],
-                "requirement": [
-                    { "title": "Requirement A", "status": false },
-                    { "title": "Requirement B", "status": false},
-                    { "title": "Requirement C", "status": false},
-                    { "title": "Requirement D", "status": false},
-                    { "title": "Requirement F", "status": false}
-                ]
+          {
+            "dimension": {
+              "width": 4,
+              "length": 5,
+              "height": 10
             },
-            {
-                "id": "2",
-                "status": "Active",
-                "name": "block 2",
-                "processCycles": [
-                    {
-                    "status": "Active",
-                    "plantId": { "name": "crisantium", "id": "0" },
-                    "name": "cycle 2",
-                    "seedCount": 1000,
-                    "id": "5f7d1816e90a1317b5b880c3"
-                    }
-                ],
-                "activity": [
-                    { "title": "kegiatan A" },
-                    { "title": "kegiatan B" },
-                    { "title": "kegiatan C" },
-                    { "title": "kegiatan D" },
-                    { "title": "kegiatan E" },
-                    { "title": "kegiatan F" },
-                    { "title": "kegiatan G" },
-                    { "title": "kegiatan H" },
-                    { "title": "kegiatan I" },
-                    { "title": "kegiatan J" },
-                    { "title": "kegiatan A" }
-                ],
-                "requirement": [
-                    { "title": "Requirement A", "status": false },
-                    { "title": "Requirement B", "status": false},
-                    { "title": "Requirement C", "status": false},
-                    { "title": "Requirement D", "status": false},
-                    { "title": "Requirement F", "status": false}
-                ]
-            }
-          ]
-    },
-    "oneIntArray": {
-        "status": "Ok",
-        "statusCode": 200,
-        "message": "Success",
-        "data": [ 0, 1, 2 ]
-    },
-    "ObjectArray": {
-        "status": "Ok",
-        "statusCode": 200,
-        "message": "Success",
-        "data":[
-            {
-                "id":1,
-                "var-a": "a",
-                "var-b": "b",
-                "var-c": "c"
+            "address": {
+              "country": "indonesia",
+              "province": "west java",
+              "city": "bandung",
+              "district": "coblong",
+              "village": "dago",
+              "street": "jln suka suka"
             },
-            {
-                "id":2,
-                "var-a": "d",
-                "var-b": "e",
-                "var-c": "f"
+            "location": {
+              "dataType": "Point",
+              "coordinates": [
+                -6.8751884,
+                107.6089406
+              ]
             },
-            {
-                "id":3,
-                "var-a": "g",
-                "var-b": "h",
-                "var-c": "i"
-            }
+            "contactPerson": {
+              "name": "abdul komari",
+              "phoneNumber": "+62 85276767654"
+            },
+            "owner": {
+              "firstName": "artisa",
+              "lastName": "panjaitan",
+              "id": "5f8ea811bf6fe81f6cca92de"
+            },
+            "totalBlocks": 6,
+            "activeBlocks": 3,
+            "name": "gh-001",
+            "elevation": 2000,
+            "createdAt": "2020-10-21T06:29:46.570Z",
+            "updatedAt": "2020-10-21T06:29:46.570Z",
+            "__v": 0,
+            "id": "5f8fd55af39ca2ad8929ba97"
+          },
+          {
+            "dimension": {
+              "width": 4,
+              "length": 5,
+              "height": 10
+            },
+            "address": {
+              "country": "indonesia",
+              "province": "west java",
+              "city": "bandung",
+              "district": "coblong",
+              "village": "dago",
+              "street": "jln suka suka"
+            },
+            "location": {
+              "type": "Point",
+              "coordinates": [
+                -6.8751884,
+                107.6089406
+              ]
+            },
+            "contactPerson": {
+              "name": "abdul komari",
+              "phoneNumber": "+62 85276767654"
+            },
+            "owner": {
+              "firstName": "artisa",
+              "lastName": "panjaitan",
+              "id": "5f8ea811bf6fe81f6cca92de"
+            },
+            "name": "gh-002",
+            "elevation": 2000,
+            "createdAt": "2020-10-21T06:29:56.760Z",
+            "updatedAt": "2020-10-21T14:46:56.861Z",
+            "__v": 0,
+            "id": "5f8fd564f39ca2ad8929ba98"
+          }
         ]
     }
 }
