@@ -21,7 +21,7 @@
               "street": "jln suka suka"
             },
             "location": {
-              "dataType": "Point",
+              "type": "Point",
               "coordinates": [
                 -6.8751884,
                 107.6089406
@@ -60,7 +60,7 @@
               "street": "jln suka suka"
             },
             "location": {
-              "dataType": "Point",
+              "type": "Point",
               "coordinates": [
                 -6.8751884,
                 107.6089406
