@@ -8,8 +8,8 @@
         "data": [
           {
             "dimension": {
-              "width": 4,
-              "length": 5,
+              "width": 40,
+              "length": 20,
               "height": 10
             },
             "address": {
@@ -28,8 +28,8 @@
               ]
             },
             "contactPerson": {
-              "name": "abdul komari",
-              "phoneNumber": "+62 85276767654"
+              "name": "Asep Sunarya",
+              "phoneNumber": "+62 812112233"
             },
             "owner": {
               "firstName": "artisa",
@@ -37,7 +37,7 @@
               "id": "5f8ea811bf6fe81f6cca92de"
             },
             "totalBlocks": 6,
-            "activeBlocks": 3,
+            "activeBlocks": 1,
             "name": "gh-001",
             "elevation": 2000,
             "createdAt": "2020-10-21T06:29:46.570Z",
@@ -47,8 +47,8 @@
           },
           {
             "dimension": {
-              "width": 4,
-              "length": 5,
+              "width": 100,
+              "length": 20,
               "height": 10
             },
             "address": {
@@ -67,8 +67,8 @@
               ]
             },
             "contactPerson": {
-              "name": "abdul komari",
-              "phoneNumber": "+62 85276767654"
+              "name": "cecep",
+              "phoneNumber": "+62 85234521254"
             },
             "owner": {
               "firstName": "artisa",
@@ -76,8 +76,8 @@
               "id": "5f8ea811bf6fe81f6cca92de"
             },
             "totalBlocks": 6,
-            "activeBlocks": 3,
-            "name": "gh-001",
+            "activeBlocks": 6,
+            "name": "gh-002",
             "elevation": 2000,
             "createdAt": "2020-10-21T06:29:46.570Z",
             "updatedAt": "2020-10-21T06:29:46.570Z",
