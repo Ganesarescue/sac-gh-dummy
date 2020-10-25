@@ -60,7 +60,7 @@
               "street": "jln suka suka"
             },
             "location": {
-              "type": "Point",
+              "dataType": "Point",
               "coordinates": [
                 -6.8751884,
                 107.6089406
@@ -75,12 +75,14 @@
               "lastName": "panjaitan",
               "id": "5f8ea811bf6fe81f6cca92de"
             },
-            "name": "gh-002",
+            "totalBlocks": 6,
+            "activeBlocks": 3,
+            "name": "gh-001",
             "elevation": 2000,
-            "createdAt": "2020-10-21T06:29:56.760Z",
-            "updatedAt": "2020-10-21T14:46:56.861Z",
+            "createdAt": "2020-10-21T06:29:46.570Z",
+            "updatedAt": "2020-10-21T06:29:46.570Z",
             "__v": 0,
-            "id": "5f8fd564f39ca2ad8929ba98"
+            "id": "5f8fd55af39ca2ad8929ba97"
           }
         ]
     }
