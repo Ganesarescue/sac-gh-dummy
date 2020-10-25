@@ -105,6 +105,88 @@
             "updatedAt": "2020-10-23T10:00:23.647Z",
             "__v": 0,
             "greenHouse": "5f8fd55af39ca2ad8929ba97",
+            "activeCycle": {
+              "status": "Active",
+              "plant": {
+                "name": "crisantium",
+                "id": "5f91539666d7c13eba459f93"
+              },
+              "block": "5f914eda6f9aa83801978651",
+              "name": "cycle 1",
+              "seedCount": 1000,
+              "startAt": "2020-10-23T10:00:23.442Z",
+              "endAt": null,
+              "activePhase": {
+                "isSensing": true,
+                "isLightSetting": true,
+                "needReminder": true,
+                "status": "Active",
+                "sensingParameters": [
+                  {
+                    "parameter": "PH",
+                    "minValue": 5,
+                    "maxValue": 8,
+                    "valueUnit": "pH"
+                  }
+                ],
+                "processCycle": "5f92a9b7845c5dd9d6658dbe",
+                "name": "phase 1",
+                "phaseOrder": 1,
+                "lightSettings": {
+                  "turnedOn": {
+                    "hour": 18,
+                    "minute": 0,
+                    "second": 0
+                  },
+                  "turnedOff": {
+                    "hour": 22,
+                    "minute": 0,
+                    "second": 0
+                  }
+                },
+                "reminderTime": {
+                  "hour": 9,
+                  "minute": 0,
+                  "second": 0
+                },
+                "estimatedPeriod": 15,
+                "schedules": [
+                  {
+                    "needReport": true,
+                    "title": "Fist TOdo Phase 1",
+                    "description": "fist to do description",
+                    "reportSettings": {
+                      "timesPeriod": 1,
+                      "inPeriod": 1
+                    },
+                    "processPhase": "5f92a9b7845c5dd9d6658de7",
+                    "id": "5f92a9b7845c5dd9d6658dfb"
+                  },
+                  {
+                    "needReport": true,
+                    "title": "Second TOdo Phase 1",
+                    "description": "Second to do description",
+                    "reportSettings": {
+                      "timesPeriod": 1,
+                      "inPeriod": 1
+                    },
+                    "processPhase": "5f92a9b7845c5dd9d6658de7",
+                    "id": "5f92a9b7845c5dd9d6658dfd"
+                  }
+                ],
+                "phaseParameters": [
+                  {
+                    "title": "test finish parameters phase 1",
+                    "logicType": "boolean",
+                    "logicValue": 1,
+                    "processPhase": "5f92a9b7845c5dd9d6658de7",
+                    "id": "5f92a9b8845c5dd9d6658e4b"
+                  }
+                ],
+                "id": "5f92a9b7845c5dd9d6658de7"
+              },
+              "id": "5f92a9b7845c5dd9d6658dbe"
+            },
             "id": "5f914eda6f9aa83801978651"
           },
           {
