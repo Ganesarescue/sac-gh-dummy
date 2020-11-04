@@ -1,0 +1,14 @@
+{"Blocks":[
+    {
+        "status": true,
+        "block_sense_min_temp": "",
+        "block_sense_max_temp": "",
+        "block_sense_min_dtemp": "",
+        "block_sense_max_dtemp": "",
+        "block_sense_min_lux": "",
+        "block_sense_max_lux": "",
+        "block_sense_min_moist": "",
+        "block_sense_max_moist": ""
+    }
+]
+}

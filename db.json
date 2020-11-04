@@ -1,291 +1,295 @@
 {
-    "infoGh": {
-        "isSuccess": true,
-        "statusCode": 200,
-        "statusMessage": "OK",
-        "message": "Data Founds",
-        "dataCount": 3,
-        "data": [
-          {
-            "dimension": {
-              "width": 40,
-              "length": 20,
-              "height": 10
-            },
-            "address": {
-              "country": "indonesia",
-              "province": "west java",
-              "city": "bandung",
-              "district": "coblong",
-              "village": "dago",
-              "street": "jln suka suka"
-            },
-            "location": {
-              "type": "Point",
-              "coordinates": [
-                -6.8751884,
-                107.6089406
-              ]
-            },
-            "contactPerson": {
-              "name": "Asep Sunarya",
-              "phoneNumber": "+62 812112233"
-            },
-            "owner": {
-              "firstName": "artisa",
-              "lastName": "panjaitan",
-              "id": "5f8ea811bf6fe81f6cca92de"
-            },
-            "totalBlocks": 6,
-            "activeBlocks": 1,
-            "name": "gh-001",
-            "elevation": 2000,
-            "createdAt": "2020-10-21T06:29:46.570Z",
-            "updatedAt": "2020-10-21T06:29:46.570Z",
-            "__v": 0,
-            "id": "5f8fd55af39ca2ad8929ba97"
-          },
-          {
-            "dimension": {
-              "width": 100,
-              "length": 20,
-              "height": 10
-            },
-            "address": {
-              "country": "indonesia",
-              "province": "west java",
-              "city": "bandung",
-              "district": "coblong",
-              "village": "dago",
-              "street": "jln suka suka"
-            },
-            "location": {
-              "type": "Point",
-              "coordinates": [
-                -6.8751884,
-                107.6089406
-              ]
-            },
-            "contactPerson": {
-              "name": "cecep",
-              "phoneNumber": "+62 85234521254"
-            },
-            "owner": {
-              "firstName": "artisa",
-              "lastName": "panjaitan",
-              "id": "5f8ea811bf6fe81f6cca92de"
-            },
-            "totalBlocks": 6,
-            "activeBlocks": 6,
-            "name": "gh-002",
-            "elevation": 2000,
-            "createdAt": "2020-10-21T06:29:46.570Z",
-            "updatedAt": "2020-10-21T06:29:46.570Z",
-            "__v": 0,
-            "id": "5f8fd55af39ca2ad8929ba98"
-          }
-        ]
-    },
-    "ghDetail": {
+  "infoGh": {
       "isSuccess": true,
       "statusCode": 200,
       "statusMessage": "OK",
-      "message": "Data Found",
+      "message": "Data Founds",
+      "dataCount": 3,
       "data": [
-          {
-            "dimension": {
-              "width": 30,
-              "length": 30,
-              "height": 0
-            },
-            "status": "Active",
-            "capacity": 500,
-            "name": "block ii",
-            "createdAt": "2020-10-22T09:20:26.409Z",
-            "updatedAt": "2020-10-23T10:00:23.647Z",
-            "__v": 0,
-            "greenHouse": "5f8fd55af39ca2ad8929ba97",
-            "activeCycle": {
-              "status": "Active",
-              "plant": {
-                "name": "crisantium",
-                "id": "5f91539666d7c13eba459f93"
-              },
-              "block": "5f914eda6f9aa83801978651",
-              "name": "cycle 1",
-              "seedCount": 1000,
-              "startAt": "2020-10-23T10:00:23.442Z",
-              "endAt": null,
-              "activePhase": {
-                "isSensing": true,
-                "isLightSetting": true,
-                "needReminder": true,
-                "status": "Active",
-                "sensingParameters": [
-                  {
-                    "parameter": "PH",
-                    "minValue": 5,
-                    "maxValue": 8,
-                    "valueUnit": "pH"
-                  }
-                ],
-                "processCycle": "5f92a9b7845c5dd9d6658dbe",
-                "name": "phase 1",
-                "phaseOrder": 1,
-                "lightSettings": {
-                  "turnedOn": {
-                    "hour": 18,
-                    "minute": 0,
-                    "second": 0
-                  },
-                  "turnedOff": {
-                    "hour": 22,
-                    "minute": 0,
-                    "second": 0
-                  }
-                },
-                "reminderTime": {
-                  "hour": 9,
-                  "minute": 0,
-                  "second": 0
-                },
-                "estimatedPeriod": 15,
-                "schedules": [
-                  {
-                    "needReport": true,
-                    "title": "Fist TOdo Phase 1",
-                    "description": "fist to do description",
-                    "reportSettings": {
-                      "timesPeriod": 1,
-                      "inPeriod": 1
-                    },
-                    "processPhase": "5f92a9b7845c5dd9d6658de7",
-                    "id": "5f92a9b7845c5dd9d6658dfb"
-                  },
-                  {
-                    "needReport": true,
-                    "title": "Second TOdo Phase 1",
-                    "description": "Second to do description",
-                    "reportSettings": {
-                      "timesPeriod": 1,
-                      "inPeriod": 1
-                    },
-                    "processPhase": "5f92a9b7845c5dd9d6658de7",
-                    "id": "5f92a9b7845c5dd9d6658dfd"
-                  }
-                ],
-                "phaseParameters": [
-                  {
-                    "title": "test finish parameters phase 1",
-                    "logicType": "boolean",
-                    "logicValue": 1,
-                    "processPhase": "5f92a9b7845c5dd9d6658de7",
-                    "id": "5f92a9b8845c5dd9d6658e4b"
-                  }
-                ],
-                "id": "5f92a9b7845c5dd9d6658de7"
-              },
-              "id": "5f92a9b7845c5dd9d6658dbe"
-            },
-            "id": "5f914eda6f9aa83801978651"
+        {
+          "dimension": {
+            "width": 40,
+            "length": 20,
+            "height": 10
           },
-          {
-            "dimension": {
-              "width": 30,
-              "length": 30,
-              "height": 0
-            },
-            "status": "Inactive",
-            "greenHouse": "5f8fd55af39ca2ad8929ba97",
-            "capacity": 500,
-            "name": "block i",
-            "createdAt": "2020-10-22T12:55:48.691Z",
-            "updatedAt": "2020-10-22T12:55:48.691Z",
-            "__v": 0,
-            "activeCycle": {
-              "status": "Active",
-              "plant": {
-                "name": "crisantium",
-                "id": "5f91539666d7c13eba459f93"
+          "address": {
+            "country": "indonesia",
+            "province": "west java",
+            "city": "bandung",
+            "district": "coblong",
+            "village": "dago",
+            "street": "jln suka suka"
+          },
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              -6.8751884,
+              107.6089406
+            ]
+          },
+          "contactPerson": {
+            "name": "Asep Sunarya",
+            "phoneNumber": "+62 812112233"
+          },
+          "owner": {
+            "firstName": "artisa",
+            "lastName": "panjaitan",
+            "id": "5f8ea811bf6fe81f6cca92de"
+          },
+          "totalBlocks": 6,
+          "activeBlocks": 1,
+          "name": "gh-001",
+          "elevation": 2000,
+          "createdAt": "2020-10-21T06:29:46.570Z",
+          "updatedAt": "2020-10-21T06:29:46.570Z",
+          "__v": 0,
+          "id": "5f8fd55af39ca2ad8929ba97"
+        },
+        {
+          "dimension": {
+            "width": 100,
+            "length": 20,
+            "height": 10
+          },
+          "address": {
+            "country": "indonesia",
+            "province": "west java",
+            "city": "bandung",
+            "district": "coblong",
+            "village": "dago",
+            "street": "jln suka suka"
+          },
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              -6.8751884,
+              107.6089406
+            ]
+          },
+          "contactPerson": {
+            "name": "cecep",
+            "phoneNumber": "+62 85234521254"
+          },
+          "owner": {
+            "firstName": "artisa",
+            "lastName": "panjaitan",
+            "id": "5f8ea811bf6fe81f6cca92de"
+          },
+          "totalBlocks": 6,
+          "activeBlocks": 6,
+          "name": "gh-002",
+          "elevation": 2000,
+          "createdAt": "2020-10-21T06:29:46.570Z",
+          "updatedAt": "2020-10-21T06:29:46.570Z",
+          "__v": 0,
+          "id": "5f8fd55af39ca2ad8929ba98"
+        }
+      ]
+  },
+  "ghDetail": {
+    "isSuccess": true,
+    "statusCode": 200,
+    "statusMessage": "OK",
+    "message": "Data Founds",
+    "dataCount": 2,
+    "data": [
+      {
+        "dimension": {
+          "width": 30,
+          "length": 30,
+          "height": 0
+        },
+        "status": "Active",
+        "capacity": 500,
+        "name": "block ii",
+        "createdAt": "2020-10-22T09:20:26.409Z",
+        "updatedAt": "2020-10-23T10:00:23.647Z",
+        "__v": 0,
+        "greenHouse": "5f8fd55af39ca2ad8929ba97",
+        "activeCycle": {
+          "status": "Active",
+          "plant": {
+            "name": "crisantium",
+            "id": "5f91539666d7c13eba459f93"
+          },
+          "block": "5f914eda6f9aa83801978651",
+          "name": "cycle 1",
+          "seedCount": 1000,
+          "startAt": "2020-10-23T10:00:23.442Z",
+          "endAt": null,
+          "activePhase": {
+            "isSensing": true,
+            "isLightSetting": true,
+            "needReminder": true,
+            "status": "Active",
+            "sensingParameters": [
+              {
+                "parameter": "PH",
+                "minValue": 5,
+                "maxValue": 8,
+                "valueUnit": "pH"
+              }
+            ],
+            "processCycle": "5f92a9b7845c5dd9d6658dbe",
+            "name": "phase 1",
+            "phaseOrder": 1,
+            "lightSettings": {
+              "turnedOn": {
+                "hour": 18,
+                "minute": 0,
+                "second": 0
               },
-              "block": "5f918154c7d3d2753a865939",
-              "name": "cycle 1",
-              "seedCount": 1000,
-              "startAt": "2020-10-23T09:39:38.997Z",
-              "endAt": null,
-              "activePhase": {
-                "isSensing": true,
-                "isLightSetting": true,
-                "needReminder": true,
-                "status": "Active",
-                "sensingParameters": [
-                  {
-                    "parameter": "PH",
-                    "minValue": 5,
-                    "maxValue": 8,
-                    "valueUnit": "pH"
-                  }
-                ],
-                "processCycle": "5f92a4daf630aecc15dacedc",
-                "name": "phase 1",
-                "phaseOrder": 1,
-                "lightSettings": {
-                  "turnedOn": {
-                    "hour": 18,
-                    "minute": 0,
-                    "second": 0
-                  },
-                  "turnedOff": {
-                    "hour": 22,
-                    "minute": 0,
-                    "second": 0
-                  }
-                },
-                "reminderTime": {
-                  "hour": 9,
-                  "minute": 0,
-                  "second": 0
-                },
-                "estimatedPeriod": 15,
-                "schedules": [
-                  {
-                    "needReport": true,
-                    "title": "Fist TOdo Phase 1",
-                    "description": "fist to do description",
-                    "reportSettings": {
-                      "timesPeriod": 1,
-                      "inPeriod": 1
-                    },
-                    "processPhase": "5f92a4dbf630aecc15dacf05",
-                    "id": "5f92a4dbf630aecc15dacf19"
-                  },
-                  {
-                    "needReport": true,
-                    "title": "Second TOdo Phase 1",
-                    "description": "Second to do description",
-                    "reportSettings": {
-                      "timesPeriod": 1,
-                      "inPeriod": 1
-                    },
-                    "processPhase": "5f92a4dbf630aecc15dacf05",
-                    "id": "5f92a4dbf630aecc15dacf1b"
-                  }
-                ],
-                "phaseParameters": [
-                  {
-                    "title": "test finish parameters phase 1",
-                    "logicType": "boolean",
-                    "logicValue": 1,
-                    "processPhase": "5f92a4dbf630aecc15dacf05",
-                    "id": "5f92a4dbf630aecc15dacf69"
-                  }
-                ],
-                "id": "5f92a4dbf630aecc15dacf05"
-              },
-              "id": "5f92a4daf630aecc15dacedc"
+              "turnedOff": {
+                "hour": 22,
+                "minute": 0,
+                "second": 0
+              }
             },
-            "id": "5f918154c7d3d2753a865939"
-          }
-        ]
-    }
+            "reminderTime": {
+              "hour": 9,
+              "minute": 0,
+              "second": 0
+            },
+            "estimatedPeriod": 15,
+            "schedules": [
+              {
+                "needReport": true,
+                "title": "Fist TOdo Phase 1",
+                "description": "fist to do description",
+                "reportSettings": {
+                  "timesPeriod": 1,
+                  "inPeriod": 1
+                },
+                "processPhase": "5f92a9b7845c5dd9d6658de7",
+                "id": "5f92a9b7845c5dd9d6658dfb"
+              },
+              {
+                "needReport": true,
+                "title": "Second TOdo Phase 1",
+                "description": "Second to do description",
+                "reportSettings": {
+                  "timesPeriod": 1,
+                  "inPeriod": 1
+                },
+                "processPhase": "5f92a9b7845c5dd9d6658de7",
+                "id": "5f92a9b7845c5dd9d6658dfd"
+              }
+            ],
+            "phaseParameters": [
+              {
+                "title": "test finish parameters phase 1",
+                "logicType": "boolean",
+                "logicValue": 1,
+                "processPhase": "5f92a9b7845c5dd9d6658de7",
+                "id": "5f92a9b8845c5dd9d6658e4b"
+              }
+            ],
+            "id": "5f92a9b7845c5dd9d6658de7"
+          },
+          "id": "5f92a9b7845c5dd9d6658dbe"
+        },
+        "id": "5f914eda6f9aa83801978651"
+      },
+      {
+        "dimension": {
+          "width": 30,
+          "length": 30,
+          "height": 0
+        },
+        "status": "Inactive",
+        "greenHouse": "5f8fd55af39ca2ad8929ba97",
+        "capacity": 500,
+        "name": "block i",
+        "createdAt": "2020-10-22T12:55:48.691Z",
+        "updatedAt": "2020-10-22T12:55:48.691Z",
+        "__v": 0,
+        "activeCycle": {
+          "status": "Active",
+          "plant": {
+            "name": "crisantium",
+            "id": "5f91539666d7c13eba459f93"
+          },
+          "block": "5f918154c7d3d2753a865939",
+          "name": "cycle 1",
+          "seedCount": 1000,
+          "startAt": "2020-10-23T09:39:38.997Z",
+          "endAt": null,
+          "activePhase": {
+            "isSensing": true,
+            "isLightSetting": true,
+            "needReminder": true,
+            "status": "Active",
+            "sensingParameters": [{
+                "parameter": "PH",
+                "minValue": 5,
+                "maxValue": 8,
+                "valueUnit": "pH"
+              }
+            ],
+            "processCycle": "5f92a4daf630aecc15dacedc",
+            "name": "phase 1",
+            "phaseOrder": 1,
+            "lightSettings": {
+              "turnedOn": {
+                "hour": 18,
+                "minute": 0,
+                "second": 0
+              },
+              "turnedOff": {
+                "hour": 22,
+                "minute": 0,
+                "second": 0
+              }
+            },
+            "reminderTime": {
+              "hour": 9,
+              "minute": 0,
+              "second": 0
+            },
+            "estimatedPeriod": 15,
+            "schedules": [
+              {
+                "needReport": true,
+                "title": "Fist TOdo Phase 1",
+                "description": "fist to do description",
+                "reportSettings": {
+                  "timesPeriod": 1,
+                  "inPeriod": 1
+                },
+                "processPhase": "5f92a4dbf630aecc15dacf05",
+                "id": "5f92a4dbf630aecc15dacf19"
+              },
+              {
+                "needReport": true,
+                "title": "Second TOdo Phase 1",
+                "description": "Second to do description",
+                "reportSettings": {
+                  "timesPeriod": 1,
+                  "inPeriod": 1
+                },
+                "processPhase": "5f92a4dbf630aecc15dacf05",
+                "id": "5f92a4dbf630aecc15dacf1b"
+              }
+            ],
+            "phaseParameters": [
+              {
+                "title": "test finish parameters phase 1",
+                "logicType": "boolean",
+                "logicValue": 1,
+                "processPhase": "5f92a4dbf630aecc15dacf05",
+                "id": "5f92a4dbf630aecc15dacf69"
+              }
+            ],
+            "id": "5f92a4dbf630aecc15dacf05"
+          },
+          "id": "5f92a4daf630aecc15dacedc"
+        },
+        "id": "5f918154c7d3d2753a865939"
+      }
+    ]
+  },
+  "plant": {
+    "name": "crisantium",
+    "id":"5f91539666d7c13eba459f93"
+  }
 }
